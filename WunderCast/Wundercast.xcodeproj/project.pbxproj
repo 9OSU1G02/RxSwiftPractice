@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		092AA64B1B42F8F6D6C5E727 /* Pods_Wundercast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021B4FEC8759659B732CA9DF /* Pods_Wundercast.framework */; };
+		467189B62A85A74F006F48AF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467189B22A85A74F006F48AF /* InfoView.swift */; };
+		467189B72A85A74F006F48AF /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467189B32A85A74F006F48AF /* InfoView.xib */; };
+		467189B82A85A74F006F48AF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467189B42A85A74F006F48AF /* Colors.swift */; };
+		467189B92A85A74F006F48AF /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467189B52A85A74F006F48AF /* Appearance.swift */; };
+		467189BB2A85AD92006F48AF /* RxReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467189BA2A85AD92006F48AF /* RxReachability.swift */; };
 		46C33B9A2A81437F0087D488 /* MKMapView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C33B982A81437F0087D488 /* MKMapView+Rx.swift */; };
 		46C33B9B2A81437F0087D488 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C33B992A81437F0087D488 /* CLLocationManager+Rx.swift */; };
 		CB4D69411DE9A7D100DC0488 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D69401DE9A7D100DC0488 /* AppDelegate.swift */; };
@@ -19,12 +24,15 @@
 		CB4D69661DE9AD3300DC0488 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D69651DE9AD3300DC0488 /* ApiController.swift */; };
 		CB4D69691DE9AD6200DC0488 /* weather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB4D69681DE9AD6200DC0488 /* weather.ttf */; };
 		CB4D696B1DE9AD7C00DC0488 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CB4D696A1DE9AD7C00DC0488 /* LICENSE */; };
-		CB4D69701DE9C70100DC0488 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D696E1DE9C70100DC0488 /* Appearance.swift */; };
-		CB4D69711DE9C70100DC0488 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D696F1DE9C70100DC0488 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		021B4FEC8759659B732CA9DF /* Pods_Wundercast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wundercast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		467189B22A85A74F006F48AF /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		467189B32A85A74F006F48AF /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		467189B42A85A74F006F48AF /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		467189B52A85A74F006F48AF /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		467189BA2A85AD92006F48AF /* RxReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxReachability.swift; sourceTree = "<group>"; };
 		46C33B982A81437F0087D488 /* MKMapView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+Rx.swift"; sourceTree = "<group>"; };
 		46C33B992A81437F0087D488 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
 		6884B52158423C7AD2243224 /* Pods-Wundercast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wundercast.release.xcconfig"; path = "Target Support Files/Pods-Wundercast/Pods-Wundercast.release.xcconfig"; sourceTree = "<group>"; };
@@ -40,8 +48,6 @@
 		CB4D69651DE9AD3300DC0488 /* ApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 		CB4D69681DE9AD6200DC0488 /* weather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = weather.ttf; sourceTree = "<group>"; };
 		CB4D696A1DE9AD7C00DC0488 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CB4D696E1DE9C70100DC0488 /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
-		CB4D696F1DE9C70100DC0488 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,17 @@
 				021B4FEC8759659B732CA9DF /* Pods_Wundercast.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		467189B12A85A74F006F48AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				467189B22A85A74F006F48AF /* InfoView.swift */,
+				467189B32A85A74F006F48AF /* InfoView.xib */,
+				467189B42A85A74F006F48AF /* Colors.swift */,
+				467189B52A85A74F006F48AF /* Appearance.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		54A948E678EBEC1CD9642BF9 /* Pods */ = {
@@ -119,10 +136,10 @@
 		CB4D69641DE9AD2A00DC0488 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				467189BA2A85AD92006F48AF /* RxReachability.swift */,
+				467189B12A85A74F006F48AF /* Utils */,
 				46C33B992A81437F0087D488 /* CLLocationManager+Rx.swift */,
 				46C33B982A81437F0087D488 /* MKMapView+Rx.swift */,
-				CB4D696E1DE9C70100DC0488 /* Appearance.swift */,
-				CB4D696F1DE9C70100DC0488 /* Colors.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -200,6 +217,7 @@
 				CB4D696B1DE9AD7C00DC0488 /* LICENSE in Resources */,
 				CB4D694B1DE9A7D100DC0488 /* LaunchScreen.storyboard in Resources */,
 				CB4D69481DE9A7D100DC0488 /* Assets.xcassets in Resources */,
+				467189B72A85A74F006F48AF /* InfoView.xib in Resources */,
 				CB4D69611DE9A7F100DC0488 /* Podfile in Resources */,
 				CB4D69461DE9A7D100DC0488 /* Main.storyboard in Resources */,
 				CB4D69691DE9AD6200DC0488 /* weather.ttf in Resources */,
@@ -260,13 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467189B62A85A74F006F48AF /* InfoView.swift in Sources */,
+				467189B82A85A74F006F48AF /* Colors.swift in Sources */,
 				CB4D69431DE9A7D100DC0488 /* ViewController.swift in Sources */,
 				46C33B9A2A81437F0087D488 /* MKMapView+Rx.swift in Sources */,
 				46C33B9B2A81437F0087D488 /* CLLocationManager+Rx.swift in Sources */,
-				CB4D69711DE9C70100DC0488 /* Colors.swift in Sources */,
+				467189B92A85A74F006F48AF /* Appearance.swift in Sources */,
 				CB4D69411DE9A7D100DC0488 /* AppDelegate.swift in Sources */,
 				CB4D69661DE9AD3300DC0488 /* ApiController.swift in Sources */,
-				CB4D69701DE9C70100DC0488 /* Appearance.swift in Sources */,
+				467189BB2A85AD92006F48AF /* RxReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
