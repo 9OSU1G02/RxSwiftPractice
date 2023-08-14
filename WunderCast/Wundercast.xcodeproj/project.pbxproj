@@ -187,6 +187,7 @@
 				TargetAttributes = {
 					CB4D693C1DE9A7D100DC0488 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8PQ3PRCB3U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -428,10 +429,10 @@
 			baseConfigurationReference = A5A39B4B2FC29FC2AB089474 /* Pods-Wundercast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8PQ3PRCB3U;
 				INFOPLIST_FILE = Wundercast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Wundercast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Wundercast1902;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -442,10 +443,10 @@
 			baseConfigurationReference = 6884B52158423C7AD2243224 /* Pods-Wundercast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8PQ3PRCB3U;
 				INFOPLIST_FILE = Wundercast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Wundercast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.Wundercast1902;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
